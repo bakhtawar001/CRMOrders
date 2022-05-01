@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="57" passed="48" failed="9" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-24T15:54:53 PKT" name="Default suite" finished-at="2022-04-24T16:22:33 PKT" duration-ms="1659790">
+    <groups>
+    </groups>
+    <test started-at="2022-04-24T15:54:53 PKT" name="Default test" finished-at="2022-04-24T16:22:33 PKT" duration-ms="1659790">
+      <class name="Master.OrdersExecution1">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:54:53 PKT" name="Startup" finished-at="2022-04-24T15:55:37 PKT" duration-ms="44612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="LoginApp()[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:55:38 PKT" name="LoginApp" description="Validate that user is able to login with orders application successfully" finished-at="2022-04-24T15:56:10 PKT" duration-ms="32227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApp -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:56:10 PKT" name="getResult" finished-at="2022-04-24T15:56:13 PKT" duration-ms="2629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginApp status=SUCCESS method=OrdersExecution1.LoginApp()[pri:0, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="OrdersListing_SearchOrderField_PlaceholderVerification()[pri:1, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:56:13 PKT" name="OrdersListing_SearchOrderField_PlaceholderVerification" description="Validate that on orders landing page search field should have water mark &#039;Search by product,supplier etc.&#039;" finished-at="2022-04-24T15:56:17 PKT" duration-ms="4317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrdersListing_SearchOrderField_PlaceholderVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:56:17 PKT" name="getResult" finished-at="2022-04-24T15:56:17 PKT" duration-ms="382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrdersListing_SearchOrderField_PlaceholderVerification status=SUCCESS method=OrdersExecution1.OrdersListing_SearchOrderField_PlaceholderVerification()[pri:1, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Settings_AutomaticSalesTaxChecked()[pri:2, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:56:17 PKT" name="Settings_AutomaticSalesTaxChecked" description="Validate that in sale tax page from settings address exists with &#039;PA&#039; state and Tax rates checks box should be selected." finished-at="2022-04-24T15:56:26 PKT" duration-ms="8744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Settings_AutomaticSalesTaxChecked -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:56:26 PKT" name="getResult" finished-at="2022-04-24T15:56:26 PKT" duration-ms="393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Settings_AutomaticSalesTaxChecked status=SUCCESS method=OrdersExecution1.Settings_AutomaticSalesTaxChecked()[pri:2, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Percentage_square_in_Orders_SummaryWidget_ToolTip_TextVerification()[pri:3, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:56:26 PKT" name="Percentage_square_in_Orders_SummaryWidget_ToolTip_TextVerification" description="Validate that on dashboard tool tip &#039;Difference in sales revenue year to date compared to the same time prior year&#039; should be displayed on yearly summary section." finished-at="2022-04-24T15:56:46 PKT" duration-ms="19439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Percentage_square_in_Orders_SummaryWidget_ToolTip_TextVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:56:46 PKT" name="getResult" finished-at="2022-04-24T15:56:46 PKT" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Percentage_square_in_Orders_SummaryWidget_ToolTip_TextVerification status=SUCCESS method=OrdersExecution1.Percentage_square_in_Orders_SummaryWidget_ToolTip_TextVerification()[pri:3, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Percentage_circle_inOrdersSummary_Widget_ToolTip_TextVerification()[pri:4, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:56:46 PKT" name="Percentage_circle_inOrdersSummary_Widget_ToolTip_TextVerification" description="Validate that on dashboard tool tip &#039;Difference in sales revenue between the selected period and the prior period&#039; should be displayed on orders summary section." finished-at="2022-04-24T15:56:53 PKT" duration-ms="7251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Percentage_circle_inOrdersSummary_Widget_ToolTip_TextVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:56:53 PKT" name="getResult" finished-at="2022-04-24T15:56:54 PKT" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Percentage_circle_inOrdersSummary_Widget_ToolTip_TextVerification status=SUCCESS method=OrdersExecution1.Percentage_circle_inOrdersSummary_Widget_ToolTip_TextVerification()[pri:4, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="PayWith_ElectronicFundsOption_DropdownValueVerification()[pri:5, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:56:54 PKT" name="PayWith_ElectronicFundsOption_DropdownValueVerification" finished-at="2022-04-24T15:57:01 PKT" duration-ms="6938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PayWith_ElectronicFundsOption_DropdownValueVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:57:01 PKT" name="getResult" finished-at="2022-04-24T15:57:01 PKT" duration-ms="240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PayWith_ElectronicFundsOption_DropdownValueVerification status=SUCCESS method=OrdersExecution1.PayWith_ElectronicFundsOption_DropdownValueVerification()[pri:5, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ShipVia_LoomisGroundOption_DropdownValueVerifcation()[pri:6, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:57:01 PKT" name="ShipVia_LoomisGroundOption_DropdownValueVerifcation" finished-at="2022-04-24T15:57:01 PKT" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShipVia_LoomisGroundOption_DropdownValueVerifcation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:57:01 PKT" name="getResult" finished-at="2022-04-24T15:57:02 PKT" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShipVia_LoomisGroundOption_DropdownValueVerifcation status=SUCCESS method=OrdersExecution1.ShipVia_LoomisGroundOption_DropdownValueVerifcation()[pri:6, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="OrderSaving_WithoutSalesPerson_ValidationVerification()[pri:7, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:57:02 PKT" name="OrderSaving_WithoutSalesPerson_ValidationVerification" finished-at="2022-04-24T15:57:15 PKT" duration-ms="13501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderSaving_WithoutSalesPerson_ValidationVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:57:15 PKT" name="getResult" finished-at="2022-04-24T15:57:15 PKT" duration-ms="239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrderSaving_WithoutSalesPerson_ValidationVerification status=SUCCESS method=OrdersExecution1.OrderSaving_WithoutSalesPerson_ValidationVerification()[pri:7, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="InvalidFileUpload_ErrorMessageDisplayVerification()[pri:8, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:57:15 PKT" name="InvalidFileUpload_ErrorMessageDisplayVerification" finished-at="2022-04-24T15:58:22 PKT" duration-ms="66723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidFileUpload_ErrorMessageDisplayVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:58:22 PKT" name="getResult" finished-at="2022-04-24T15:58:22 PKT" duration-ms="305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidFileUpload_ErrorMessageDisplayVerification status=SUCCESS method=OrdersExecution1.InvalidFileUpload_ErrorMessageDisplayVerification()[pri:8, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="UploadSVGFileOrders_Orderlevel()[pri:9, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:58:22 PKT" name="UploadSVGFileOrders_Orderlevel" finished-at="2022-04-24T15:58:48 PKT" duration-ms="25428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadSVGFileOrders_Orderlevel -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:58:48 PKT" name="getResult" finished-at="2022-04-24T15:58:48 PKT" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UploadSVGFileOrders_Orderlevel status=SUCCESS method=OrdersExecution1.UploadSVGFileOrders_Orderlevel()[pri:9, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Upload_AIExtensionFile()[pri:10, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:58:48 PKT" name="Upload_AIExtensionFile" finished-at="2022-04-24T15:59:18 PKT" duration-ms="30310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload_AIExtensionFile -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:59:18 PKT" name="getResult" finished-at="2022-04-24T15:59:18 PKT" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Upload_AIExtensionFile status=SUCCESS method=OrdersExecution1.Upload_AIExtensionFile()[pri:10, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CustomProducts_SupplierSelectionDropdown_Verification()[pri:11, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:59:18 PKT" name="CustomProducts_SupplierSelectionDropdown_Verification" finished-at="2022-04-24T15:59:23 PKT" duration-ms="5040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomProducts_SupplierSelectionDropdown_Verification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:59:23 PKT" name="getResult" finished-at="2022-04-24T15:59:24 PKT" duration-ms="232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CustomProducts_SupplierSelectionDropdown_Verification status=SUCCESS method=OrdersExecution1.CustomProducts_SupplierSelectionDropdown_Verification()[pri:11, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="VerifyCogWheelNotExistsFor_CustomProductsVerification()[pri:12, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:59:24 PKT" name="VerifyCogWheelNotExistsFor_CustomProductsVerification" finished-at="2022-04-24T15:59:29 PKT" duration-ms="5601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCogWheelNotExistsFor_CustomProductsVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:59:29 PKT" name="getResult" finished-at="2022-04-24T15:59:29 PKT" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCogWheelNotExistsFor_CustomProductsVerification status=SUCCESS method=OrdersExecution1.VerifyCogWheelNotExistsFor_CustomProductsVerification()[pri:12, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="DeleteOrder_Orderlevel()[pri:13, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:59:29 PKT" name="DeleteOrder_Orderlevel" finished-at="2022-04-24T15:59:37 PKT" duration-ms="7534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteOrder_Orderlevel -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:59:37 PKT" name="getResult" finished-at="2022-04-24T15:59:37 PKT" duration-ms="334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteOrder_Orderlevel status=SUCCESS method=OrdersExecution1.DeleteOrder_Orderlevel()[pri:13, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CustomerFacingDoc_CPN_Visible_EnableFromSettings()[pri:14, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T15:59:37 PKT" name="CustomerFacingDoc_CPN_Visible_EnableFromSettings" finished-at="2022-04-24T16:00:11 PKT" duration-ms="33295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerFacingDoc_CPN_Visible_EnableFromSettings -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:00:11 PKT" name="getResult" finished-at="2022-04-24T16:00:11 PKT" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CustomerFacingDoc_CPN_Visible_EnableFromSettings status=SUCCESS method=OrdersExecution1.CustomerFacingDoc_CPN_Visible_EnableFromSettings()[pri:14, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CreateQuote_BillingAddress_Verification()[pri:15, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:00:11 PKT" name="CreateQuote_BillingAddress_Verification" finished-at="2022-04-24T16:00:43 PKT" duration-ms="32624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateQuote_BillingAddress_Verification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:00:43 PKT" name="getResult" finished-at="2022-04-24T16:00:44 PKT" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateQuote_BillingAddress_Verification status=SUCCESS method=OrdersExecution1.CreateQuote_BillingAddress_Verification()[pri:15, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CreateQuote_ShippingAddress_Verification()[pri:16, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:00:44 PKT" name="CreateQuote_ShippingAddress_Verification" finished-at="2022-04-24T16:00:44 PKT" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateQuote_ShippingAddress_Verification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:00:44 PKT" name="getResult" finished-at="2022-04-24T16:00:44 PKT" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateQuote_ShippingAddress_Verification status=SUCCESS method=OrdersExecution1.CreateQuote_ShippingAddress_Verification()[pri:16, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CreateQuote_AddingProductToQuote()[pri:17, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:00:44 PKT" name="CreateQuote_AddingProductToQuote" finished-at="2022-04-24T16:00:55 PKT" duration-ms="10759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateQuote_AddingProductToQuote -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:00:55 PKT" name="getResult" finished-at="2022-04-24T16:00:55 PKT" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateQuote_AddingProductToQuote status=SUCCESS method=OrdersExecution1.CreateQuote_AddingProductToQuote()[pri:17, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CreateQuote_Verification()[pri:18, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:00:55 PKT" name="CreateQuote_Verification" finished-at="2022-04-24T16:02:05 PKT" duration-ms="69354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateQuote_Verification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:02:05 PKT" name="getResult" finished-at="2022-04-24T16:02:05 PKT" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateQuote_Verification status=SUCCESS method=OrdersExecution1.CreateQuote_Verification()[pri:18, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Review_ImprintLocation()[pri:19, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:02:05 PKT" name="Review_ImprintLocation" finished-at="2022-04-24T16:02:16 PKT" duration-ms="11220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Review_ImprintLocation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:02:16 PKT" name="getResult" finished-at="2022-04-24T16:02:16 PKT" duration-ms="307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Review_ImprintLocation status=SUCCESS method=OrdersExecution1.Review_ImprintLocation()[pri:19, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="VerifyTermandPay_QuoteRequestPreview()[pri:20, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:02:16 PKT" name="VerifyTermandPay_QuoteRequestPreview" finished-at="2022-04-24T16:02:18 PKT" duration-ms="1754" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <li ng-model="itemView" ng-repeat="(key, tab) in itemViews" ng-class="{'btn-primary active' : tab.active }" class="ng-pristine ng-untouched ng-valid ng-scope ng-not-empty">...</li> is not clickable at point (523, 535). Other element would receive the click: <div class="block-ui-overlay"></div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a372304bff87edd22bd90f9e6c39cbd0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li ng-model="itemView" ng-repeat="(key, tab) in itemViews" ng-class="{'btn-primary active' : tab.active }" class="ng-pristine ng-untouched ng-valid ng-scope ng-not-empty">...</li> is not clickable at point (523, 535). Other element would receive the click: <div class="block-ui-overlay"></div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a372304bff87edd22bd90f9e6c39cbd0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at OrdersTestcases.CreateQuote.VerifyTermandPay_QuoteRequest_Preview(CreateQuote.java:408)
+at Master.OrdersExecution1.VerifyTermandPay_QuoteRequestPreview(OrdersExecution1.java:205)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTermandPay_QuoteRequestPreview -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:02:18 PKT" name="getResult" finished-at="2022-04-24T16:02:19 PKT" duration-ms="591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTermandPay_QuoteRequestPreview status=FAILURE method=OrdersExecution1.VerifyTermandPay_QuoteRequestPreview()[pri:20, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ShipAccountNo_Checkbox_Uncheck_ByDefaultVerification()[pri:21, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:02:19 PKT" name="ShipAccountNo_Checkbox_Uncheck_ByDefaultVerification" finished-at="2022-04-24T16:02:23 PKT" duration-ms="4745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShipAccountNo_Checkbox_Uncheck_ByDefaultVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:02:23 PKT" name="getResult" finished-at="2022-04-24T16:02:24 PKT" duration-ms="261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShipAccountNo_Checkbox_Uncheck_ByDefaultVerification status=SUCCESS method=OrdersExecution1.ShipAccountNo_Checkbox_Uncheck_ByDefaultVerification()[pri:21, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ShipAccountNotVisible_Visible_Checkbox_UncheckForAccountNo()[pri:22, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:02:24 PKT" name="ShipAccountNotVisible_Visible_Checkbox_UncheckForAccountNo" finished-at="2022-04-24T16:03:59 PKT" duration-ms="95514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShipAccountNotVisible_Visible_Checkbox_UncheckForAccountNo -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:03:59 PKT" name="getResult" finished-at="2022-04-24T16:04:00 PKT" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShipAccountNotVisible_Visible_Checkbox_UncheckForAccountNo status=SUCCESS method=OrdersExecution1.ShipAccountNotVisible_Visible_Checkbox_UncheckForAccountNo()[pri:22, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Verify_ImprintLocation()[pri:23, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:04:00 PKT" name="Verify_ImprintLocation" finished-at="2022-04-24T16:04:46 PKT" duration-ms="46908" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//table[contains(@class,'decoration-table')]/descendant::td[1]"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a372304bff87edd22bd90f9e6c39cbd0
+*** Element info: {Using=xpath, value=//table[contains(@class,'decoration-table')]/descendant::td[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[contains(@class,'decoration-table')]/descendant::td[1]"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a372304bff87edd22bd90f9e6c39cbd0
+*** Element info: {Using=xpath, value=//table[contains(@class,'decoration-table')]/descendant::td[1]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy13.getText(Unknown Source)
+at OrdersTestcases.CreateQuote.VerifyImprintLocation(CreateQuote.java:507)
+at Master.OrdersExecution1.Verify_ImprintLocation(OrdersExecution1.java:228)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ImprintLocation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:04:46 PKT" name="getResult" finished-at="2022-04-24T16:04:47 PKT" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_ImprintLocation status=FAILURE method=OrdersExecution1.Verify_ImprintLocation()[pri:23, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CPN_Number_QuoteDocPreview_Verification()[pri:24, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:04:47 PKT" name="CPN_Number_QuoteDocPreview_Verification" finished-at="2022-04-24T16:04:51 PKT" duration-ms="4229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CPN_Number_QuoteDocPreview_Verification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:04:51 PKT" name="getResult" finished-at="2022-04-24T16:04:51 PKT" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CPN_Number_QuoteDocPreview_Verification status=SUCCESS method=OrdersExecution1.CPN_Number_QuoteDocPreview_Verification()[pri:24, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="VendorInformation_QuotePreviewDoc()[pri:25, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:04:51 PKT" name="VendorInformation_QuotePreviewDoc" finished-at="2022-04-24T16:04:51 PKT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VendorInformation_QuotePreviewDoc -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:04:51 PKT" name="getResult" finished-at="2022-04-24T16:04:51 PKT" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VendorInformation_QuotePreviewDoc status=SUCCESS method=OrdersExecution1.VendorInformation_QuotePreviewDoc()[pri:25, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification()[pri:26, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:04:51 PKT" name="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification" finished-at="2022-04-24T16:07:16 PKT" duration-ms="145113" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//b[contains(text(), 'Notes')]/parent::*"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a372304bff87edd22bd90f9e6c39cbd0
+*** Element info: {Using=xpath, value=//b[contains(text(), 'Notes')]/parent::*}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[contains(text(), 'Notes')]/parent::*"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a372304bff87edd22bd90f9e6c39cbd0
+*** Element info: {Using=xpath, value=//b[contains(text(), 'Notes')]/parent::*}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy13.getText(Unknown Source)
+at OrdersTestcases.CreateQuote.VendorNotes_DecoratorNotes_DecoratorInstructions_Visible_checkbox_SelectedAtProductLevel_QuotePreview_Verification(CreateQuote.java:561)
+at Master.OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification(OrdersExecution1.java:250)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:07:16 PKT" name="getResult" finished-at="2022-04-24T16:07:17 PKT" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification status=FAILURE method=OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification()[pri:26, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ShipAccountNo_Visibility_QuoteDocumentVerification()[pri:27, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:07:17 PKT" name="ShipAccountNo_Visibility_QuoteDocumentVerification" finished-at="2022-04-24T16:07:37 PKT" duration-ms="20106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShipAccountNo_Visibility_QuoteDocumentVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:07:37 PKT" name="getResult" finished-at="2022-04-24T16:07:37 PKT" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShipAccountNo_Visibility_QuoteDocumentVerification status=SUCCESS method=OrdersExecution1.ShipAccountNo_Visibility_QuoteDocumentVerification()[pri:27, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AccountNo_Visible_Checkbox_Selected_Verification_AtProductLevel()[pri:28, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:07:37 PKT" name="AccountNo_Visible_Checkbox_Selected_Verification_AtProductLevel" finished-at="2022-04-24T16:07:58 PKT" duration-ms="20794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountNo_Visible_Checkbox_Selected_Verification_AtProductLevel -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:07:58 PKT" name="getResult" finished-at="2022-04-24T16:07:58 PKT" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccountNo_Visible_Checkbox_Selected_Verification_AtProductLevel status=SUCCESS method=OrdersExecution1.AccountNo_Visible_Checkbox_Selected_Verification_AtProductLevel()[pri:28, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Quote_Download()[pri:29, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:07:58 PKT" name="Quote_Download" finished-at="2022-04-24T16:08:32 PKT" duration-ms="34065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quote_Download -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:08:32 PKT" name="getResult" finished-at="2022-04-24T16:08:32 PKT" duration-ms="227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Quote_Download status=SUCCESS method=OrdersExecution1.Quote_Download()[pri:29, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CreateOrder_FromQuote_LinkedTransactionInvoice()[pri:30, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:08:32 PKT" name="CreateOrder_FromQuote_LinkedTransactionInvoice" finished-at="2022-04-24T16:09:45 PKT" duration-ms="72540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrder_FromQuote_LinkedTransactionInvoice -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:09:45 PKT" name="getResult" finished-at="2022-04-24T16:09:45 PKT" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateOrder_FromQuote_LinkedTransactionInvoice status=SUCCESS method=OrdersExecution1.CreateOrder_FromQuote_LinkedTransactionInvoice()[pri:30, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ShipAccountNo_Visibility_InvoiceDocumentVerification()[pri:31, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:09:45 PKT" name="ShipAccountNo_Visibility_InvoiceDocumentVerification" finished-at="2022-04-24T16:09:53 PKT" duration-ms="7783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShipAccountNo_Visibility_InvoiceDocumentVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:09:53 PKT" name="getResult" finished-at="2022-04-24T16:09:53 PKT" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShipAccountNo_Visibility_InvoiceDocumentVerification status=SUCCESS method=OrdersExecution1.ShipAccountNo_Visibility_InvoiceDocumentVerification()[pri:31, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification()[pri:32, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:09:53 PKT" name="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification" finished-at="2022-04-24T16:10:41 PKT" duration-ms="48149" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//b[contains(text(), 'Notes')]/parent::*"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a372304bff87edd22bd90f9e6c39cbd0
+*** Element info: {Using=xpath, value=//b[contains(text(), 'Notes')]/parent::*}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[contains(text(), 'Notes')]/parent::*"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a372304bff87edd22bd90f9e6c39cbd0
+*** Element info: {Using=xpath, value=//b[contains(text(), 'Notes')]/parent::*}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy13.getText(Unknown Source)
+at OrdersTestcases.CreateOrder_FromQuote.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreview_Verification(CreateOrder_FromQuote.java:110)
+at Master.OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification(OrdersExecution1.java:294)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:10:41 PKT" name="getResult" finished-at="2022-04-24T16:10:41 PKT" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification status=FAILURE method=OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification()[pri:32, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="LinkedTransaction_Navigation_To_OrderScreen()[pri:33, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:10:41 PKT" name="LinkedTransaction_Navigation_To_OrderScreen" finished-at="2022-04-24T16:10:58 PKT" duration-ms="16650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedTransaction_Navigation_To_OrderScreen -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:10:58 PKT" name="getResult" finished-at="2022-04-24T16:10:58 PKT" duration-ms="231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LinkedTransaction_Navigation_To_OrderScreen status=SUCCESS method=OrdersExecution1.LinkedTransaction_Navigation_To_OrderScreen()[pri:33, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CreateOrder_Delete_Orderwith_Associated_Invoices()[pri:34, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:10:58 PKT" name="CreateOrder_Delete_Orderwith_Associated_Invoices" finished-at="2022-04-24T16:11:04 PKT" duration-ms="5990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrder_Delete_Orderwith_Associated_Invoices -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:11:04 PKT" name="getResult" finished-at="2022-04-24T16:11:05 PKT" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateOrder_Delete_Orderwith_Associated_Invoices status=SUCCESS method=OrdersExecution1.CreateOrder_Delete_Orderwith_Associated_Invoices()[pri:34, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ShipAccountNo_AcknowledgementDocumentVerification()[pri:35, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:11:05 PKT" name="ShipAccountNo_AcknowledgementDocumentVerification" finished-at="2022-04-24T16:11:34 PKT" duration-ms="29461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShipAccountNo_AcknowledgementDocumentVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:11:34 PKT" name="getResult" finished-at="2022-04-24T16:11:34 PKT" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShipAccountNo_AcknowledgementDocumentVerification status=SUCCESS method=OrdersExecution1.ShipAccountNo_AcknowledgementDocumentVerification()[pri:35, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification()[pri:36, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:11:34 PKT" name="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification" finished-at="2022-04-24T16:12:19 PKT" duration-ms="44978" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//b[contains(text(), 'Notes')]/parent::*"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a372304bff87edd22bd90f9e6c39cbd0
+*** Element info: {Using=xpath, value=//b[contains(text(), 'Notes')]/parent::*}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[contains(text(), 'Notes')]/parent::*"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a372304bff87edd22bd90f9e6c39cbd0
+*** Element info: {Using=xpath, value=//b[contains(text(), 'Notes')]/parent::*}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy13.getText(Unknown Source)
+at OrdersTestcases.CreateOrder_FromQuote.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreview_Verification(CreateOrder_FromQuote.java:260)
+at Master.OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification(OrdersExecution1.java:320)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:12:19 PKT" name="getResult" finished-at="2022-04-24T16:12:19 PKT" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification status=FAILURE method=OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification()[pri:36, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CreateOrder_LinkedTransactions_Navigation_ToQuoteScreen()[pri:37, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:12:19 PKT" name="CreateOrder_LinkedTransactions_Navigation_ToQuoteScreen" finished-at="2022-04-24T16:12:38 PKT" duration-ms="18773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrder_LinkedTransactions_Navigation_ToQuoteScreen -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:12:38 PKT" name="getResult" finished-at="2022-04-24T16:12:38 PKT" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateOrder_LinkedTransactions_Navigation_ToQuoteScreen status=SUCCESS method=OrdersExecution1.CreateOrder_LinkedTransactions_Navigation_ToQuoteScreen()[pri:37, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Enterpaymentpartial()[pri:38, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:12:38 PKT" name="Enterpaymentpartial" finished-at="2022-04-24T16:13:08 PKT" duration-ms="29885" status="FAIL">
+          <exception class="java.text.ParseException">
+            <message>
+              <![CDATA[Unparseable number: "$48.95"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.text.ParseException: Unparseable number: "$48.95"
+at java.base/java.text.NumberFormat.parse(NumberFormat.java:434)
+at Functions.ConversionsWithoutOtherCharges.Subtotal_String_To_Int_Conversion(ConversionsWithoutOtherCharges.java:94)
+at OrdersTestcases.EnterPaymentInvoice_WithInvoiceDeletion.EnterPaymentWithInvoice_PaymentPartial(EnterPaymentInvoice_WithInvoiceDeletion.java:54)
+at Master.OrdersExecution1.Enterpaymentpartial(OrdersExecution1.java:332)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.text.ParseException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enterpaymentpartial -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:13:08 PKT" name="getResult" finished-at="2022-04-24T16:13:09 PKT" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Enterpaymentpartial status=FAILURE method=OrdersExecution1.Enterpaymentpartial()[pri:38, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="DeleteInvoice_WithPaymentLeft()[pri:39, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:13:09 PKT" name="DeleteInvoice_WithPaymentLeft" finished-at="2022-04-24T16:14:00 PKT" duration-ms="51032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteInvoice_WithPaymentLeft -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:14:00 PKT" name="getResult" finished-at="2022-04-24T16:14:00 PKT" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteInvoice_WithPaymentLeft status=SUCCESS method=OrdersExecution1.DeleteInvoice_WithPaymentLeft()[pri:39, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Full_Payment_Verify()[pri:40, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:14:00 PKT" name="Full_Payment_Verify" finished-at="2022-04-24T16:14:45 PKT" duration-ms="45065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Full_Payment_Verify -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:14:45 PKT" name="getResult" finished-at="2022-04-24T16:14:45 PKT" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Full_Payment_Verify status=SUCCESS method=OrdersExecution1.Full_Payment_Verify()[pri:40, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Shipping_AddressEditing()[pri:41, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:14:45 PKT" name="Shipping_AddressEditing" finished-at="2022-04-24T16:15:30 PKT" duration-ms="45027" status="FAIL">
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+at org.openqa.selenium.json.Json.toJson(Json.java:42)
+at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+at Master.OrdersExecution1.Hover(OrdersExecution1.java:499)
+at OrdersTestcases.EnterPaymentInvoice_WithInvoiceDeletion.Shipping_Address_Editing(EnterPaymentInvoice_WithInvoiceDeletion.java:178)
+at Master.OrdersExecution1.Shipping_AddressEditing(OrdersExecution1.java:350)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
+at org.openqa.selenium.json.Json.toJson(Json.java:44)
+... 39 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
+... 51 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@ng-if,'vm.model.length')]"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a372304bff87edd22bd90f9e6c39cbd0
+*** Element info: {Using=xpath, value=//a[contains(@ng-if,'vm.model.length')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy13.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+... 56 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shipping_AddressEditing -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:15:30 PKT" name="getResult" finished-at="2022-04-24T16:15:30 PKT" duration-ms="316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Shipping_AddressEditing status=FAILURE method=OrdersExecution1.Shipping_AddressEditing()[pri:41, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Partial_PaymentLink_Verification()[pri:42, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:15:30 PKT" name="Partial_PaymentLink_Verification" finished-at="2022-04-24T16:16:15 PKT" duration-ms="45051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Partial_PaymentLink_Verification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:16:15 PKT" name="getResult" finished-at="2022-04-24T16:16:16 PKT" duration-ms="270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Partial_PaymentLink_Verification status=SUCCESS method=OrdersExecution1.Partial_PaymentLink_Verification()[pri:42, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Reorder_Verification()[pri:43, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:16:16 PKT" name="Reorder_Verification" finished-at="2022-04-24T16:17:06 PKT" duration-ms="50068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reorder_Verification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:17:06 PKT" name="getResult" finished-at="2022-04-24T16:17:06 PKT" duration-ms="239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Reorder_Verification status=SUCCESS method=OrdersExecution1.Reorder_Verification()[pri:43, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="FieldsData_Verifications_AfterReorder()[pri:44, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:17:06 PKT" name="FieldsData_Verifications_AfterReorder" finished-at="2022-04-24T16:17:51 PKT" duration-ms="45061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FieldsData_Verifications_AfterReorder -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:17:51 PKT" name="getResult" finished-at="2022-04-24T16:17:51 PKT" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FieldsData_Verifications_AfterReorder status=SUCCESS method=OrdersExecution1.FieldsData_Verifications_AfterReorder()[pri:44, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="New_InhandDate_AfterReorderVerification()[pri:45, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:17:51 PKT" name="New_InhandDate_AfterReorderVerification" finished-at="2022-04-24T16:18:36 PKT" duration-ms="45033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- New_InhandDate_AfterReorderVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:18:36 PKT" name="getResult" finished-at="2022-04-24T16:18:37 PKT" duration-ms="706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=New_InhandDate_AfterReorderVerification status=SUCCESS method=OrdersExecution1.New_InhandDate_AfterReorderVerification()[pri:45, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Linked_Transaction_ReOrder_Verifications()[pri:46, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:18:37 PKT" name="Linked_Transaction_ReOrder_Verifications" finished-at="2022-04-24T16:19:22 PKT" duration-ms="45055" status="FAIL">
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+at org.openqa.selenium.json.Json.toJson(Json.java:42)
+at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+at Master.OrdersExecution1.Hover(OrdersExecution1.java:499)
+at OrdersTestcases.EnterPaymentInvoice_WithInvoiceDeletion.Linked_Transaction_ReOrder_Verification(EnterPaymentInvoice_WithInvoiceDeletion.java:514)
+at Master.OrdersExecution1.Linked_Transaction_ReOrder_Verifications(OrdersExecution1.java:380)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
+at org.openqa.selenium.json.Json.toJson(Json.java:44)
+... 39 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
+... 51 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@ng-if,'vm.model.length')]"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a372304bff87edd22bd90f9e6c39cbd0
+*** Element info: {Using=xpath, value=//a[contains(@ng-if,'vm.model.length')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy13.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+... 56 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Linked_Transaction_ReOrder_Verifications -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:19:22 PKT" name="getResult" finished-at="2022-04-24T16:19:22 PKT" duration-ms="231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Linked_Transaction_ReOrder_Verifications status=FAILURE method=OrdersExecution1.Linked_Transaction_ReOrder_Verifications()[pri:46, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="InvoiceCreationBillingAddress()[pri:47, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:19:22 PKT" name="InvoiceCreationBillingAddress" finished-at="2022-04-24T16:19:41 PKT" duration-ms="18290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvoiceCreationBillingAddress -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:19:41 PKT" name="getResult" finished-at="2022-04-24T16:19:41 PKT" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvoiceCreationBillingAddress status=SUCCESS method=OrdersExecution1.InvoiceCreationBillingAddress()[pri:47, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CreateInvoiceShippingAddress_Verification()[pri:48, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:19:41 PKT" name="CreateInvoiceShippingAddress_Verification" finished-at="2022-04-24T16:19:41 PKT" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateInvoiceShippingAddress_Verification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:19:41 PKT" name="getResult" finished-at="2022-04-24T16:19:42 PKT" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateInvoiceShippingAddress_Verification status=SUCCESS method=OrdersExecution1.CreateInvoiceShippingAddress_Verification()[pri:48, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Product_AddedTo_Invoice()[pri:49, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:19:42 PKT" name="Product_AddedTo_Invoice" finished-at="2022-04-24T16:19:56 PKT" duration-ms="14551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product_AddedTo_Invoice -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:19:56 PKT" name="getResult" finished-at="2022-04-24T16:19:56 PKT" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Product_AddedTo_Invoice status=SUCCESS method=OrdersExecution1.Product_AddedTo_Invoice()[pri:49, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CreateInvoice()[pri:50, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:19:56 PKT" name="CreateInvoice" finished-at="2022-04-24T16:20:51 PKT" duration-ms="55130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateInvoice -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:20:51 PKT" name="getResult" finished-at="2022-04-24T16:20:52 PKT" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateInvoice status=SUCCESS method=OrdersExecution1.CreateInvoice()[pri:50, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="VerifyBillingEmailAddress_Send_Invoice()[pri:51, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:20:52 PKT" name="VerifyBillingEmailAddress_Send_Invoice" finished-at="2022-04-24T16:21:06 PKT" duration-ms="14207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBillingEmailAddress_Send_Invoice -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:21:06 PKT" name="getResult" finished-at="2022-04-24T16:21:06 PKT" duration-ms="298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyBillingEmailAddress_Send_Invoice status=SUCCESS method=OrdersExecution1.VerifyBillingEmailAddress_Send_Invoice()[pri:51, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CreateOrder_BillingAddressVerification()[pri:52, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:21:06 PKT" name="CreateOrder_BillingAddressVerification" finished-at="2022-04-24T16:21:39 PKT" duration-ms="33008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrder_BillingAddressVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:21:39 PKT" name="getResult" finished-at="2022-04-24T16:21:39 PKT" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateOrder_BillingAddressVerification status=SUCCESS method=OrdersExecution1.CreateOrder_BillingAddressVerification()[pri:52, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CreateOrder_ShippingAddressVerification()[pri:53, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:21:39 PKT" name="CreateOrder_ShippingAddressVerification" finished-at="2022-04-24T16:22:24 PKT" duration-ms="45007" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#pad-wrapper > div:nth-child(8) > div > div > div:nth-child(2) > div > order-contact > div > div.margin-left-20 > div > address > div:nth-child(3)"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a372304bff87edd22bd90f9e6c39cbd0
+*** Element info: {Using=css selector, value=#pad-wrapper > div:nth-child(8) > div > div > div:nth-child(2) > div > order-contact > div > div.margin-left-20 > div > address > div:nth-child(3)}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#pad-wrapper > div:nth-child(8) > div > div > div:nth-child(2) > div > order-contact > div > div.margin-left-20 > div > address > div:nth-child(3)"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a372304bff87edd22bd90f9e6c39cbd0
+*** Element info: {Using=css selector, value=#pad-wrapper > div:nth-child(8) > div > div > div:nth-child(2) > div > order-contact > div > div.margin-left-20 > div > address > div:nth-child(3)}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy13.getText(Unknown Source)
+at OrdersTestcases.CreateOrder.CreateOrder_ShippingAddress_Verification(CreateOrder.java:83)
+at Master.OrdersExecution1.CreateOrder_ShippingAddressVerification(OrdersExecution1.java:427)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrder_ShippingAddressVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:22:24 PKT" name="getResult" finished-at="2022-04-24T16:22:24 PKT" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateOrder_ShippingAddressVerification status=FAILURE method=OrdersExecution1.CreateOrder_ShippingAddressVerification()[pri:53, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CreateOrder_AcknowlodgementAddressVerification()[pri:54, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:22:24 PKT" name="CreateOrder_AcknowlodgementAddressVerification" finished-at="2022-04-24T16:22:25 PKT" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrder_AcknowlodgementAddressVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:22:25 PKT" name="getResult" finished-at="2022-04-24T16:22:25 PKT" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateOrder_AcknowlodgementAddressVerification status=SUCCESS method=OrdersExecution1.CreateOrder_AcknowlodgementAddressVerification()[pri:54, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Net25_Net45_Net90_50PercentAdvance_50PercentUponCompletion_Net75_Terms_DropdownValuesVerification()[pri:55, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:22:25 PKT" name="Net25_Net45_Net90_50PercentAdvance_50PercentUponCompletion_Net75_Terms_DropdownValuesVerification" finished-at="2022-04-24T16:22:26 PKT" duration-ms="1648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Net25_Net45_Net90_50PercentAdvance_50PercentUponCompletion_Net75_Terms_DropdownValuesVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:22:26 PKT" name="getResult" finished-at="2022-04-24T16:22:27 PKT" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Net25_Net45_Net90_50PercentAdvance_50PercentUponCompletion_Net75_Terms_DropdownValuesVerification status=SUCCESS method=OrdersExecution1.Net25_Net45_Net90_50PercentAdvance_50PercentUponCompletion_Net75_Terms_DropdownValuesVerification()[pri:55, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="FedExOvernight_FedExFLEXExpress_ShipVia_DropdownValuesVerification()[pri:56, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:22:27 PKT" name="FedExOvernight_FedExFLEXExpress_ShipVia_DropdownValuesVerification" finished-at="2022-04-24T16:22:31 PKT" duration-ms="4557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FedExOvernight_FedExFLEXExpress_ShipVia_DropdownValuesVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:22:31 PKT" name="getResult" finished-at="2022-04-24T16:22:31 PKT" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FedExOvernight_FedExFLEXExpress_ShipVia_DropdownValuesVerification status=SUCCESS method=OrdersExecution1.FedExOvernight_FedExFLEXExpress_ShipVia_DropdownValuesVerification()[pri:56, instance:Master.OrdersExecution1@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Master.OrdersExecution1@4a003cbe]" started-at="2022-04-24T16:22:31 PKT" name="teardown" finished-at="2022-04-24T16:22:33 PKT" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Master.OrdersExecution1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
